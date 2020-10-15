@@ -1,0 +1,78 @@
+
+
+1、查看抖音账号相关信息
+参数 account ：在已知账号时直接填账号，否则填0，服务器会根据自动查找
+http://47.114.99.72/api.php/potal/meitu/getaccountmes?user_id=1&der_id=1&account=0
+返回：
+{"code":0,"msg":"ok","data":{"zan":"1.000","guanzhu_tody":0,"pinglun":0,"bofang_tody":0,"account":"5555c6"}}
+2、获取设备全局配置：
+
+http://47.114.99.72/api.php/potal/meitu/getshebeiconfig?user_id=1&der_id=1
+
+返回：
+{"code":0,"msg":"ok","data":{"jiaoben_run_tyle":"2","dy_zbj_yw":"1","dy_zan_yw":"1","dyzbj_pl_num":"30"}}
+
+
+
+
+
+7、记录账号信息
+
+ 参数：	类型=>type ，用户id=>user_id  设备编号=>der_id ， appid=>app_id ，内容=>account
+ 
+类型如下：
+广告次数guanggao（累加）
+ 
+点赞次数zan（累加)  
+当天关注 guanzhu_tody（累加） 
+当天评论 pinglun （累加）
+当天播放量 bofang_tody（累加）
+金额jine,
+关注guanzhu    
+ 粉丝fensi    
+视频shipin(作品数量) 
+视频shipinbofang(视频播放量) 
+喜欢 xihuan
+好友数量 haoyou
+获赞数量 getzan
+
+http://47.114.99.72/api.php/potal/meitu/uprecord?type=jine&user_id=1&der_id=1&app_id=3&content=10
+
+
+
+
+附件1：
+http://47.103.103.138:8080/task/getTask?douyinId=test9
+参数
+douyinId:获取任务的抖音id
+返回
+如果有此抖音id当前可执行的任务，返回任务信息。
+taskCat任务类别：
+1 单独任务
+2 任务组
+此数据在回报任务执行情况时需要作为参数返回
+
+taskType任务类型：
+1 播放
+3 点赞
+4 关注
+5 评论
+
+http://47.103.103.138:8080/task/getTaskByType?douyinId=test1&taskType=5
+参数
+douyinId:获取任务的抖音id
+taskType:指定获取的任务类型
+返回
+返回任务信息。
+
+
+http://47.103.103.138:8080/task/taskCallback?taskId=15&taskCat=2&taskType=1&douyinId=test4&success=true
+参数
+taskId:任务Id
+taskCat:任务类别
+tasktType:任务类型
+douyinId：抖音Id
+success：true或者false，回报任务执行成功或失败
+
+
+

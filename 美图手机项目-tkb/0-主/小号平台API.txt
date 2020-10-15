@@ -1,0 +1,8 @@
+http://diandianguaji.xyz/login?username=a123&password=123   登录
+http://diandianguaji.xyz/getMobile?itemId=1&num=1&token=5eb8d0260117d65285adb0b1cba6b091	获取手机号     itemId=项目id    num=获取数量   token=登录token
+http://diandianguaji.xyz/getMsg?itemId=1&mobile=18888888888&token=5eb8d0260117d65285adb0b1cba6b091	获取短信   itemId=项目id   mobile=手机号
+http://diandianguaji.xyz/addBlack?itemId=1&mobile=18888888888&token=5eb8d0260117d65285adb0b1cba6b091	拉黑手机号      itemId=项目id   mobile=手机号
+http://diandianguaji.xyz/release?itemId=1&mobile=18888888888&token=5eb8d0260117d65285adb0b1cba6b091   释放手机号		 itemId=项目id   mobile=手机号
+
+
+

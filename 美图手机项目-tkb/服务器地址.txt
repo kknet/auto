@@ -1,0 +1,52 @@
+http://47.99.89.89/douyin.com/tp5/public/login
+服务器界面
+
+
+http://47.99.89.89/deer/public/index.php/admin
+账号aaa   密码：admin
+
+http://47.99.89.89/phpMyAdmin/index.php?token=f69bc8aeb7e48b7b0f6029567cc31126#PMAURL-9:sql.php?db=tuantuan&table=zhanghao_weixin&server=1&target=&token=f69bc8aeb7e48b7b0f6029567cc31126
+
+//上传账号信息
+http://47.99.89.89/douyin.com/tp5/public/index/Myapi/gxzhanghaonew/tableflag/zhanghao_weishi/usr/aaa/count/44584571/ziduan/guanzhushuliang/val/1
+
+//上传账号
+http://47.99.89.89/douyin.com/tp5/public/index/Myapi/addZhangHaonew/tableflag/zhanghao_weishi/usr/aaa/shebeihao/2/zhanghao/666
+
+//获取任务
+http://47.99.89.89/douyin.com/tp5/public/index/Myapi/shebeixinxi/xiangmu/qqflag/usr/cbs/shebeihao/1   
+
+
+http://47.99.89.89/douyin.com/tp5/public/index/Myapi/getonefield/usr/cbs/ziduan/guanzhuzhanghao/shebeihao/1
+拿指定字段
+
+
+http://47.99.89.89/phpMyAdmin/#PMAURL-0:index.php?db=&table=&server=1&target=&token=f164cb120e5ba32fd5becc3e879266da
+服务器后台
+root @Aa10086
+
+激活：http://47.99.89.89/douyin.com/tp5/public/index/Myapi/jihuo/usr/cbs/shebeihao/122
+
+11.启动脚本时间
+http://47.99.89.89/douyin.com/tp5/public/index/Myapi/qidongjiaoben/usr/cbs/shebeihao/1
+
+
+10.关注数量加1
+http://47.99.89.89/douyin.com/tp5/public/index/Myapi/guanzhushuliangaddone/usr/cbs/shebeihao/1/num/2
+
+
+http://diandianguaji.xyz/index.html
+账号：admin
+密码：123
+
+http://api.jzinter.com/   //小号平台后台
+账号：admin
+密码：123
+
+https://console.apipost.cn/doc/53595?du_id=0#432504    服务器api
+密码 qw123456789
+
+
+
+
+
